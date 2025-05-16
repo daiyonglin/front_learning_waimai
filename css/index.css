@@ -1,0 +1,96 @@
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+/* header */
+.wrapper header{
+	width: 100%;
+	height: 12vw;
+	background-color: #0097ff;
+	
+	display: flex;
+	align-items: center;
+	
+}
+.wrapper header .icon-location-box{
+	width: 3.5vw;
+	height: 3.5vw;
+	margin: 0 1vw 0 3vw;
+}
+
+.wrapper header .location-text{
+	font-size: 4.5vw;
+	font-weight: 700;
+	color: #fff;
+	mar;
+}
+.wrapper header .location-text .fa-caret-down{
+	margin: 0 0 0 1vw ;
+}
+
+/* search */
+
+.wrapper .search{
+	width: 100%;
+	height: 13vw;
+}
+
+.wrapper .search .search-fixed-top{
+	width: 100%;
+	height: 13vw;
+	background-color: #0097ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper .search .search-fixed-top .search-box{
+	width: 90%;
+	height: 9vw;
+	background-color: white;
+	border-radius: 2px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 3.5vw;
+	color: #aeaeae;
+	font-family: "宋体";
+	user-select: none;
+}
+.wrapper .search .search-fixed-top .search-box .fa-search{
+	margin-right: 1vw;
+}
+/* order */
+.wrapper .foodtype{
+	width: 100%;
+	height: 48vw;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.wrapper .foodtype li{
+	width: 18vw;
+	height: 20vw;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.wrapper .foodtype li img{
+	width: 12vw;
+	height: 12vw;
+}
+.wrapper .foodtype li p{
+	font-size: 3.2vw;
+	color: #666;
+	user-select: none;
+}
